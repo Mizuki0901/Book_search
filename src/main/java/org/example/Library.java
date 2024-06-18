@@ -11,6 +11,7 @@ public class Library {
   Book book3 = new Book(3, "星の子", "今村夏子");
   Book book4 = new Book(4, "変な家", "雨穴");
   Book book5 = new Book(5, "正体", "染井為人");
+  Book book6 = new Book(6, "夜のピクニック", "恩田陸");
 
 
   static List<Book> bookList = new ArrayList<>();
@@ -22,6 +23,7 @@ public class Library {
     bookList.add(book3);
     bookList.add(book4);
     bookList.add(book5);
+    bookList.add(book6);
 
   }
 
